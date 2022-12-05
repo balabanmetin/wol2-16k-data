@@ -1,0 +1,9 @@
+alignments: 380 amino acid multiple sequence alignments used in this analysis
+
+genetrees: uDance created 20 partitions of the input dataset. For each partition, a gene tree inferred using raxml-ng.
+
+speciestrees: for each partition, a species tree is inferred using ASTRAL-constrained. Note that the partition 12 does not exist since uDance merged partition 12 into 13. Therefore the species tree for partition 13 includes the genomes from both partitions 12 and 13.
+
+udance.updates.nwk: full final species tree with 15,953 genomes.
+
+unplaced.updates.csv: these genomes exist in multiple sequence alignments, yet, do not appear in the final phylogeny as they were not confidently placed on the phylogeny.
